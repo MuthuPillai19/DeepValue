@@ -29,7 +29,7 @@ export interface ParamsData {
 export class ParamselectorComponent implements OnInit {
     private globalJsonData: Array<JSON>;
     private globalColumn: Array<string> = [];
-    private companyNameOptions: Array<string> = [];
+    public companyNameOptions: Array<string> = [];
     private dataSet : DataSet;
     constructor(private paramSelectorService: ParamSelectorService) { }
 
