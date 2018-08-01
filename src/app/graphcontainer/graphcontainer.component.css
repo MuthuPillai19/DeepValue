@@ -1,0 +1,28 @@
+#graph_MainContainer {
+    background-color: aqua;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 500px;
+    margin-left: 1rem;
+    float: left;
+}
+
+#graphContainer_header {  
+    list-style-type: none;
+    margin: 0 0 2em 0;
+}
+
+#graphContainer_header li{
+    background-color: #007bff;
+    display: inline;
+    margin-right: 2em;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+#graphContainer_header li a {
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+}

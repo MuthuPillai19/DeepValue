@@ -1,0 +1,35 @@
+<div id="paramSelectorDiv">
+  <label>Choose an option : </label>
+  <select id="companyName">
+    <option *ngFor="let cName of companyNameOptions">
+      {{cName}}
+    </option>
+  </select>
+  <br>
+  <br>
+
+  <div class="timeSelector">
+    <label>Choose time From : </label>
+    <input class="timeTextField" id="timeFrom" type="text" value="9:30:0:0" />
+    <div id="paramselector_slider"></div>
+  </div>
+
+  <div class="timeSelector">
+    <label>Choose time To : </label>
+    <input class="timeTextField" id="timeTo" type="text" value="9:30:0:5" />
+  </div>
+
+  <br>
+  <br>
+  <input type="file" class="customFileButton" id="excelFile" (change)="importDataFromFile()" />
+  <br>
+  <br>
+
+  <input type="button" id="paramSelector_Calculate" class="btn btn-primary" value="Calculate" 
+  (click)="calculateCompanyValue()" disabled="true" />
+  <br><br>
+  <div id="infoDiv">
+
+  </div>
+
+</div>

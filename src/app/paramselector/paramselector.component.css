@@ -1,0 +1,32 @@
+#companyName {
+  width: 10rem;
+  height: 2rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0.4rem
+}
+
+#paramSelectorDiv {
+  background-color: aqua;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 500px;
+  float: left;
+}
+
+#paramselector_slider {
+  margin: 1rem 0rem;
+}
+
+.timeSelector {
+  display: inline-block;
+}
+
+#ex1Slider .slider-selection {
+  background: #BABABA;
+}
+
+.customFileButton {
+  background-color: #007bff;
+}
